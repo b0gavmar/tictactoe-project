@@ -1,5 +1,5 @@
 <script>
-import { ref, reactive, computed } from 'vue'
+import { ref, reactive, computed, watch, onMounted } from 'vue'
 const calculateWinner = squares =>{
     const lines = [
         [0,1,2],
